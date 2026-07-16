@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Fitness - Sign In</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-950 flex items-center justify-center min-h-screen p-4 relative overflow-hidden">
+
+    <!-- Atmospheric Gym-Themed Background Gradient -->
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-orange-600/20 via-zinc-950 to-zinc-950 -z-10"></div>
+
+    <!-- Sign-In Card Container -->
+    <div class="w-full max-w-md bg-zinc-900/90 backdrop-blur-md border border-zinc-800 p-8 rounded-2xl shadow-2xl">
+        
+        <!-- Gym Branding / Header -->
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-extrabold tracking-wider text-white">
+                MAX<span class="text-orange-500">FITNESS</span>
+            </h1>
+            <p class="text-zinc-400 text-sm mt-2">Welcome back! Let's crush today's goals.</p>
+        </div>
+
+        <!-- Login Form -->
+        <form action="#" method="POST" class="space-y-6">
+            
+            <!-- Username Input Field -->
+            <div>
+                <label for="username" class="block text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                    Username or Email
+                </label>
+                <input 
+                    type="text" 
+                    id="username" 
+                    name="username" 
+                    required
+                    placeholder="Enter your username"
+                    class="w-full px-4 py-3 mt-2 bg-zinc-800/80 border border-zinc-700 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
+                >
+            </div>
+
+            <!-- Password Input Field -->
+            <div>
+                <div class="flex justify-between items-center">
+                    <label for="password" class="block text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                        Password
+                    </label>
+                    <!-- Forgot Password Link -->
+                    <a href="#" class="text-xs text-orange-500 hover:text-orange-400 hover:underline transition">
+                        Forgot Password?
+                    </a>
+                </div>
+                <input 
+                    type="password" 
+                    id="password" 
+                    name="password" 
+                    required
+                    placeholder="••••••••"
+                    class="w-full px-4 py-3 mt-2 bg-zinc-800/80 border border-zinc-700 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
+                >
+            </div>
+
+            <!-- Sign In Submit Button -->
+            <button 
+                type="submit"
+                class="w-full py-3.5 bg-orange-600 hover:bg-orange-500 active:bg-orange-700 text-white font-bold rounded-xl tracking-wide shadow-lg shadow-orange-600/20 transition duration-200 transform active:scale-[0.98]"
+            >
+                SIGN IN
+            </button>
+        </form>
+
+        <!-- Registration Link Section -->
+        <div class="mt-8 text-center text-sm text-zinc-400">
+            New to the club? 
+            <a href="registration.html" class="text-orange-500 font-semibold hover:text-orange-400 hover:underline ml-1 transition">
+                Register Now
+            </a>
+        </div>
+        
+    </div>
+
+</body>
+</html>
