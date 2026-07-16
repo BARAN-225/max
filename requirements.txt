@@ -1,4 +1,4 @@
-﻿altair==6.1.0
+altair==6.1.0
 annotated-doc==0.0.4
 annotated-types==0.7.0
 anyio==4.13.0
@@ -46,6 +46,7 @@ numpy==2.4.1
 openpyxl==3.1.5
 packaging==26.0
 pandas==3.0.1
+passlib==1.7.4
 pillow==12.1.0
 platformdirs==4.10.0
 plyer==2.1.0
@@ -67,7 +68,6 @@ python-dateutil==2.9.0.post0
 python-discovery==1.4.0
 python-dotenv==1.2.2
 python-magic==0.4.27
-
 python-multipart==0.0.32
 referencing==0.37.0
 requests==2.33.1
